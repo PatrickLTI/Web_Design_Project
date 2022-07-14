@@ -7,26 +7,30 @@
     iPad Mini is an example of a Breakpoint 3 with 703px
     iPad Air is an example of a Breakpoint 4 with 768px
 */
-.navbar-brand {
-  width: 7vh;
+body {
+  background-color: rgba(250, 211, 212, 0.4);
 }
 
+header {
+  background-color: #FFE6E6;
+}
+header .navbar-brand {
+  width: 7vh;
+}
 header .icon {
   color: darkblue;
 }
-
-#header-image {
+header #header_image {
   height: 20vh;
   background-image: url(../images/headerImage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-#div-title {
+header #div-title {
   width: 60%;
+  font-family: "Pacifico", cursive;
 }
-
-#backlink {
+header #backlink {
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -43,7 +47,6 @@ header .icon {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-#reservation-content {
+#reservation #reservation-content {
   margin: 0 10%;
 }/*# sourceMappingURL=main.css.map */

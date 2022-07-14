@@ -1,13 +1,13 @@
 /* include partial section */
 @import './variables';
 
-
+// set background cover and no-repeat
 @mixin bg-cover-norepeat{
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-//float to right butom conner
+//float to right bottom conner
 @mixin rb-conner{
     position: fixed; 
     right: 20px;
@@ -19,38 +19,45 @@
     @return map-get($width, $width-percentage);
 }
 
+// styles for all pages
+body{
+    background-color: $background-color;
+}
 // styles for header
-.navbar-brand {
-    width:7vh;
-  }
-
-header .icon{
+header{
+    background-color: $light-color;
+    .navbar-brand {
+        width:7vh;
+    }
+    .icon{
     color: $icon-color;
+    }
+    #header_image {
+        height: 20vh;
+        background-image:url(../images/headerImage.jpg);
+        @include bg-cover-norepeat;
+    }
+    #div-title{
+        width: w("60");
+        font-family: map-get($map: $font-families, $key:"fantasy");
+    }
+    #backlink{
+        @include rb-conner;
+    }
 }
 
-#header-image {
-    height: 20vh;
-    background-image:url(../images/headerImage.jpg);
-    @include bg-cover-norepeat;
-}
-#div-title{
-    width: w("60");
-}
-
-#backlink{
-    @include rb-conner;
-}
 
 /* styles for menu */
 .card-footer input[type=number]::-webkit-inner-spin-button{ 
     opacity: 1;
 }
 
+
 /* styles for reservation */
 #reservation{
     background-image:url(../images/reservation-bg.jpg); 
     @include bg-cover-norepeat;
-}
-#reservation-content{
-    margin: 0 10%;
+    #reservation-content{
+        margin: 0 10%;
+    }
 }
