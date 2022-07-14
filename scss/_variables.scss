@@ -1,5 +1,12 @@
 /* declare colors */
+$primary-color:#272727;
+$secondary-color:#FFD384;
 $icon-color:darkblue;
+$background-color:rgb(250, 211, 212, .4);
+$light-color:#FFE6E6;
+
+
+
 
 // declare width
 $width:(
@@ -8,21 +15,13 @@ $width:(
 );
 
 
-/* declare font size */
-$font-weights: (
-    "regular": 400,
-    "medium": 500,
-    "bold": 700,
-);
-
-
-
 /* font families */
 $font-families: (
     "serif": Georgia,
     "sans-serif":Helvetica,
     "cursive":cursive,
-    "fantasy":fantasy
+    "fantasy":'Pacifico', cursive,
+   
 );
 
 
