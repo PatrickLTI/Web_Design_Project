@@ -1,0 +1,56 @@
+/* include partial section */
+@import './variables';
+
+
+@mixin bg-cover-norepeat{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+//float to right butom conner
+@mixin rb-conner{
+    position: fixed; 
+    right: 20px;
+    bottom: 20px;
+}
+
+// get width in percentage
+@function w($width-percentage){
+    @return map-get($width, $width-percentage);
+}
+
+// styles for header
+.navbar-brand {
+    width:7vh;
+  }
+
+header .icon{
+    color: $icon-color;
+}
+
+#header-image {
+    height: 20vh;
+    background-image:url(../images/headerImage.jpg);
+    @include bg-cover-norepeat;
+}
+#div-title{
+    width: w("60");
+}
+
+#backlink{
+    @include rb-conner;
+}
+
+/* styles for menu */
+.card-footer input[type=number]::-webkit-inner-spin-button{ 
+    opacity: 1;
+}
+
+/* styles for reservation */
+#reservation{
+    background-image:url(../images/reservation-bg.jpg); 
+    @include bg-cover-norepeat;
+}
+#reservation-content{
+    margin: 0 10%;
+}
