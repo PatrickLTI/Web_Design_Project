@@ -32,33 +32,16 @@
                 font-family: Arial, Helvetica, sans-serif;
                 font-size:large;
                 font-weight: bold;
-               height: 100px;
+                height: 100px;
             }
-
-            #banner {
-                background-image: url(../images/bistrobanner.jpg);
-                background-size: cover;
-                background-position: -40px -187px;
-                background-repeat: no-repeat;
-                background-attachment:fixed;
-                height:115px;
-                width: 100%;
-                margin-left: 10%;
-                margin-right: 10%;
-                border-radius:10px;
-                background-color: #fdf18534;
-            }
-
-           
-
+    /*Checkout Banner*/
             div.checkoutbanner {
-                background-image: url(../images/bistrobanner.jpg);
-                background-size: cover;
-                background-position: -40px -131px;
+                background-image: url(../images/Hero.jpg);
+                background-size:cover;
                 background-repeat: no-repeat;
                 background-attachment:fixed;
                 text-align: center;
-                height: 115px;
+                height: 150px;
                 margin-left: 2.5%;
                 margin-right:2.5%;
                 width:95%;
@@ -76,10 +59,10 @@
                 margin-right:35%;
                 padding-top:10px;
                 padding-bottom:10px;
-                transform: translateY(39px);
-                
+                transform: translateY(57px);  
             }
 
+/*Options (French Button)*/
             header input[type="submit"], header input[type="button"] {
                 color: #160d0a;
                 background-color: #ffd4846e;
