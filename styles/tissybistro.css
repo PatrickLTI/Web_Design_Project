@@ -17,6 +17,13 @@ header i{
 #div-title{
     width: 60%;
 }
+#backlink{
+    position: fixed; 
+    right: 20px;
+    bottom: 20px;
+    text-decoration: none;
+    color: #0A5375;
+  }
 
 /* styles for menu */
 .card-footer input[type=number]::-webkit-inner-spin-button{ 
