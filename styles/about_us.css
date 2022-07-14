@@ -2,14 +2,13 @@
 
 body {
     font-family: sans-serif;
-    background-color: rgb(250, 211, 212, .4);
+    background-color: rgba(253, 241, 133, 0.2039215686);
     padding-top: 8px;
     font-weight: 500;
     font-size: larger;
 }
 
 .banner {
-    /* background-image: linear-gradient(rgba(255, 255, 255, .2), rgba(255, 255, 255, .2)), url("https://taliupexpress.com/storage/15401/1654786963681.jpg"); */
     background-image: url("https://taliupexpress.com/storage/15401/1654786963681.jpg");
 }
 
