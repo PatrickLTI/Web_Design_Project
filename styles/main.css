@@ -1,0 +1,49 @@
+/* include partial section */ /* declare colors */
+/* declare font size */
+/* font families */
+/*
+    iPhone 5S is an example of a Breakpoint 1 with 320px
+    iPhone 6+ is an example of a Breakpoint 2 with 414px
+    iPad Mini is an example of a Breakpoint 3 with 703px
+    iPad Air is an example of a Breakpoint 4 with 768px
+*/
+.navbar-brand {
+  width: 7vh;
+}
+
+header .icon {
+  color: darkblue;
+}
+
+#header-image {
+  height: 20vh;
+  background-image: url(../images/headerImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#div-title {
+  width: 60%;
+}
+
+#backlink {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+/* styles for menu */
+.card-footer input[type=number]::-webkit-inner-spin-button {
+  opacity: 1;
+}
+
+/* styles for reservation */
+#reservation {
+  background-image: url(../images/reservation-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#reservation-content {
+  margin: 0 10%;
+}/*# sourceMappingURL=main.css.map */

@@ -1,37 +1,4 @@
 
-/* styles for header */
-.navbar-brand {
-    width:7vh;
-  }
-
-header i{
-    color:darkblue;
-}
-
-#header-image {
-    height: 20vh;
-    background:url(../images/headerImage.jpg) no-repeat;
-    background-size: cover;
-    font-family: 'Pacifico', cursive;
-}
-#div-title{
-    width: 60%;
-}
-
-/* styles for menu */
-.card-footer input[type=number]::-webkit-inner-spin-button{ 
-    opacity: 1;
-}
-
-
-/* styles for reservation */
-#reservation{
-    background:url(../images/reservation-bg.jpg) no-repeat ; 
-    background-size: cover;
-}
-#reservation-content{
-    margin: 0 10%;
-}
 
 
 

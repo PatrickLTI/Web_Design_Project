@@ -14,13 +14,12 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <!-- customer css -->
-    <link rel="stylesheet" href="styles/tissybistro.css" rel="stylesheet">
+    <!-- link for css compiled by scss -->
+    <link rel="stylesheet" href="styles/main.css" rel="stylesheet">
 
 </head>
 <body>
-        <header class=" bg-light sticky-md-top pb-4"itfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/tissybistro.css" >
+    <header class=" bg-light sticky-md-top pb-4" id="header">
         <div class=" bg-light ">
             <div class="container">
                 <div class="row">
@@ -41,19 +40,19 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav fs-4 fw-bold">
                             <li class="nav-item p-1">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
                             </li>
                             <li class="nav-item p-1">
-                                <a class="nav-link" href="menu.html">Menu</a>
+                                <a class="nav-link" href="menu.html">MENU</a>
                             </li>
                             <li class="nav-item p-1">
-                                <a class="nav-link" href="reservation.html">Reservation</a>
+                                <a class="nav-link" href="reservation.html">RESERVATION</a>
                             </li>
                             <li class="nav-item p-1">
-                                <a class="nav-link" href="checkout.html">Check Out</a>
+                                <a class="nav-link" href="checkout.html">CHECK OUT</a>
                             </li>
                             <li class="nav-item p-1">
-                                <a class="nav-link" href="aboutus.html">About Us</a>
+                                <a class="nav-link" href="aboutus.html">ABOUT US</a>
                             </li>
                         </ul>
                     </div>
@@ -64,12 +63,14 @@
         
         <div class="container position-relative rounded shadow" id="header-image">
             <div id="div-title" class="position-absolute top-50 start-50 translate-middle bg-light bg-opacity-75 p-3 rounded-4 shadow text-center">
-                <h1 class="fs-1">Tissy's Bistro</h1>
+                <h1 class="fs-1" >Tissy's Bistro</h1>
             </div>
-        </div>      
+        </div>  
+        <!-- back to top -->
+        <a href="#top" id="backlink" class="bg-light rounded"><i class="fas fa-angle-double-up fa-3x"></i></a>    
     </header>
 
-    <main>
+    <main id="top">
         <div class="container py-3 rounded mb-3" id="reservation">
             <div id="reservation-content" class="py-3">
                 <div class="bg-light bg-opacity-50 text-center fs-3 fw-bold mb-5 rounded" id="res-banner">
@@ -101,9 +102,25 @@
                         <input type="date" class="form-control required shadow-lg" id="date">
                         <label for="date" class="form-label">Choose A Date</label>
                     </div>
-                    <div class="col-md-6 form-floating mb-3">
-                        <input type="time" class="form-control required shadow-lg" id="time" min="11:00" max="19:00"  step=3600/>
-                        <label for="time" class="form-label">Choose A Time</label>
+                    <div class="col-md-6 form-floating mb-3 ">
+                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                            <option selected disabled hidden> </option>
+                            <option value="1">-- 11:00  am --</option>
+                            <option value="2">-- 11:30  am --</option>
+                            <option value="3">-- 12:00  am --</option>
+                            <option value="4">-- 12:30  am --</option>
+                            <option value="5">--  1:00  pm --</option>
+                            <option value="6">--  1:30  pm --</option>
+                            <option value="7">--  4:00  pm --</option>
+                            <option value="8">--  4:30  pm --</option>
+                            <option value="9">--  5:00  pm --</option>
+                            <option value="10">--  5:30  pm --</option>
+                            <option value="11">--  6:00  pm --</option>
+                            <option value="12">--  6:30  pm --</option>
+                            <option value="13">--  7:00  pm --</option>
+                            <option value="14">--  7:30 pm --</option>
+                          </select>
+                          <label for="time" class="form-label">Choose A Time</label>
                     </div>
                     <div class="col-md-12 form-floating mb-3">
                         <textarea name="comments" class="form-control shadow-lg"  id="comments" cols="30" rows="10"></textarea>
@@ -116,8 +133,6 @@
                 </form>
             </div>
 
-
-
         </div>        
     </main>
 
@@ -125,15 +140,15 @@
         <div class="conteiner">
             <ul class="nav justify-content-center p-2 bg-dark mb-2">
                 <li class="nav-item">
-                  <a class="nav-link fs-5 text-white mx-5" href="termsconditions.html">-Terms&Conditions-</a>
+                  <a class="nav-link fs-5 text-white mx-5" href="termsconditions.html">-Terms & Conditions-</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link fs-5 text-white mx-5" href="privacypolicy.html">-PrivacyPolicy-</a>
+                  <a class="nav-link fs-5 text-white mx-5" href="privacypolicy.html">-Privacy Policy-</a>
                 </li>
             </ul>
             <div class="text-white p-2 bg-dark">
                 <p class="text-center fs-3">WELCOME !!!</p>
-                <p class="text-center"><i class="fas fa-location-arrow"></i> 132 Avenue SaintLouis,Beaconsfild,Quebec</p>
+                <p class="text-center"><i class="fas fa-location-arrow"></i> 132 Avenue SaintLouis, Beaconsfild, Quebec</p>
                 <p class="text-center"><i class="fas fa-clock"></i> Opening Hours:11:00 AM ~ 6:00 PM</p>
             </div>
         </div>
