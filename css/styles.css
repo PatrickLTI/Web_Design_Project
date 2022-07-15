@@ -2,35 +2,15 @@
     background-image: url(../images/jerome-jome-Ga3ziG9jCno-unsplash.jpg);
 }*/
 
-body {
-    font-family: montserrat;
-    background-color: #ffd384;
-}
 
-/* navigation bar */
-.navbar {
-    padding: 0 0 4.5rem;
-
-}
-
-nav-item {
-    padding: 0 18px;
-}
-
-.nav-link {
-    font-size: 1.2rem;
-    font-family: "montserrat-light";
-}
-
-.navbar-brand{
-  height: 40px;
-  width: 40px;
-
-}
 
 /*-----slider-----*/
+
+#showcase{
+  margin-top: 2rem;
+}
 .carousel-item{
-  height: 100vh;
+  
   min-height: 18.75rem;
   background: no-repeat scroll center scroll;
   -webkit-background-size: cover;
@@ -38,42 +18,23 @@ nav-item {
   box-shadow:0rem 0.625rem 0.9375rem #8f4e3c;
 }
 
-/*.carousel-item::before{
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: black;
-  opacity: 0.7;
-}*/
-
-.btn{
-  --bs-btn-padding-y: 1rem;
-   --bs-btn-padding-x: 1rem;
-    --bs-btn-font-size: 1.3rem;
-    width: 15rem;
-    margin: 0.5rem;
-    box-shadow:0rem 0.625rem 0.9375rem #8f4e3c;
-
+.container-fluid{
+  background-repeat: no-repeat;
+  background-size: 100rem 50rem;
 }
 
-.box{
-  background: #8f4e3c50;
-  padding: 1rem 5rem 1rem; 
-  border-radius: 3rem;
-  box-shadow:0rem 0.625rem 0.9375rem #8f4e3c;
+/* social media */
 
-}
 
-.box2{
+.tablette{
+  padding: 5rem;
   background: #ec515f50;
-  padding: 3rem 5rem 3rem; 
-  border-radius: 3rem;
+  margin: 0 auto; /* to make the div center align to the browser */
+    width: 60rem; /* set it to anything */
+    height: 40rem;
+    text-align: center;
+    border-radius: 3rem;
   box-shadow:0rem 0.625rem 0.9375rem #8f4e3c;
-  
 }
 
 .facebook{
@@ -83,6 +44,7 @@ nav-item {
   border-bottom:2.5rem solid #000; 
   border-radius:1.625rem; 
   box-shadow:0rem 0.625rem 0.9375rem #8f4e3c;
+
 }
 
 h2{
@@ -91,10 +53,6 @@ h2{
 }
 
 
-.container-fluid{
-    background-repeat: no-repeat;
-    background-size: 100rem 50rem;
-}
 
 
 
